@@ -45,3 +45,13 @@ section#telefone {
     /*Manipulations stuff*/
     transform: translate(-50%, -50%);
 }
+
+iframe#tela {
+    /*Positioning stuff*/
+    position: relative;
+    left: 22px;
+    top: 80px;
+    /*Box model stuff*/
+    width: 269px;
+    height: 471px;
+}
