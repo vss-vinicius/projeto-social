@@ -21,9 +21,7 @@ body {
 
 body {
     /*Box model stuff*/
-    background-attachment: fixed;
-    background-size: cover;
-    background: url('../images/fundo-madeira.jpg') no-repeat top center;
+    background: url('../images/fundo-madeira.jpg') no-repeat top center / cover fixed;
 }
 
 main {
