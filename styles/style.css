@@ -1,2 +1,47 @@
 /*Rules*/
 @charset "UTF-8";
+
+* {
+    /*Box model stuff*/
+    margin: 0px;
+    padding: 0px;
+    /*Typography stuff*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  vw= "viewport width" (largura da janela de visualização) | vh= "viewport height" (altura da janela de visualização) */
+
+html,
+body {
+    /*Box model stuff*/
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    /*Box model stuff*/
+    background-attachment: fixed;
+    background-size: cover;
+    background: url('../images/fundo-madeira.jpg') no-repeat top center;
+}
+
+main {
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    height: 100vh;
+}
+
+section#telefone {
+    /*Positioning stuff*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*Box model stuff*/
+    width: 311px;
+    height: 627px;
+    background: url('../images/frame-iphone.png') no-repeat;
+    /*Manipulations stuff*/
+    transform: translate(-50%, -50%);
+}
